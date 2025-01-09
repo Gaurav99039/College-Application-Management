@@ -24,7 +24,7 @@ class Student(models.Model):
     date_of_birth = models.DateField()
     email = models.EmailField(unique=True)
     phone_number = models.CharField(max_length=15)
-    password = models.TextField()
+   
 
     extracurriculars_heading = models.CharField(max_length=100)
     extracurriculars_description = models.TextField()
